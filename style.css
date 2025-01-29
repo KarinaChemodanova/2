@@ -78,6 +78,7 @@ header span {
 	background-color: #ffffff;
 	margin-top: 100px;
 	margin-bottom: 100px;
+	padding: 100px 0px;
 	/* Стили для второй секции */
 }
 
@@ -86,6 +87,7 @@ select {
 	margin-top: 8.5px;
 	margin-bottom: 8.5px;
 	list-style-image: url(./ep_arrow-down.svg);
+	background-repeat: no-repeat;
 	/* Стили для выпадающего списка */
 }
 
@@ -99,12 +101,12 @@ select {
 
 .frameworks-list {
 	list-style-image: url(./solar_map-arrow-up-bold.svg);
-	padding-left: 20px;
+	padding: 0px 20px;
 	/* Стили для маркированного списка во второй секции */
 }
 
 .books-list {
-	padding-left: 20px;
+	padding: 0px 20px;
 	/* Стили для нумерованного списка во второй секции */
 }
 
@@ -115,6 +117,7 @@ select {
 	padding-top: 8.5px;
 	border-radius: 5px;
 	border: 1px solid #303030;
+	font-size: 16px;
 	/* Стили для односточного поля ввода текста */
 }
 
@@ -153,15 +156,15 @@ table {
 th,
 td {
 	border: 1px solid #95a1bb;
-	padding-left: 15px;
+	padding: 12px 15px;
 	/* Стили для ячеек таблицы */
 }
 
 footer {
 	background-color: #a3a7ff4d;
 	height: 70px;
-	padding-top: 26.5px;
-	padding-bottom: 26.5px;
+	padding-top: 26px;
+	padding-bottom: 26px;
 	/* Стили для футера */
 }
 
@@ -169,5 +172,6 @@ footer {
 	height: 17px;
 	width: 78px;
 	color: #2965f1;
+	font-size: 14px;
 	/* Стили для футера */
 }
